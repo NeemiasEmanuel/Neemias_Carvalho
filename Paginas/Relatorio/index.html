@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrabalhoWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <nav> 
+            <hr> 
+            <h1>FIVE SPORTS</h1> 
+            <div class="menu container">
+                <div class="menu__item"> 
+                    <a class="menu__link" href ="../Home/index.html" >Home</a>
+                </div> 
+                <div class="menu__item" >
+                <a class="menu__link" href="../Feed/index.html" >Feed</a> 
+                </div>
+                <div class="menu__item">
+                <a class="menu__link" href="../Produtos/index.html" >Produtos</a> 
+                </div>
+                <div class="menu__item">
+                <a class="menu__link" href="../Cadastro/index.html" >Cadastro</a> 
+                </div>
+                <div class="menu__item">
+                <a class="menu__link" href="../Relatorio/index.html" >Relatórios</a > 
+                </div>
+            </div>
+            <hr>
+        </nav> 
+    </header>
+<main>
+    <section>
+        <div class="relatorios">
+        <h2>Relatórios</h2>
+    </div>
+    <hr>
+    <div >
+        <form  action="">
+            <label class="Entrada"   for="selecao">Defina:</label>
+            <select name="select" id="selecao">
+                <option value="op1">Entrada</option>
+                <option value="op2">Saida</option>
+            </select>
+            <br>
+            <label class="Entrada" for="texto">Descrição:</label>
+            <input class="input" type="text" name="texto" id="texto"> <br>
+            <label class="Entrada" for="selecao">Tamanho:</label>
+            <select name="select" id="selecao2">
+                <option value="op1">P</option>
+                <option value="op2">M</option>
+                <option value="op3">G</option>
+            </select>
+            <br>
+            <label class="Entrada" for="Quantidade">Quantidade: </label>
+            <input class="input" type="number" name="Quantidade" id="Quantidade">
+            <br>
+            <input  type="submit" value="Enviar"> &nbsp; | &nbsp; <input type="reset" value="Limpar">
+        </form>
+    </div>
+        <hr>
+    </section>
+        <section>
+        <div>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Descrição</th>
+                    <th>Tamanho</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Preço Total</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Barcelona</td>
+                    <td>M</td>
+                    <td>120</td>
+                    <td>R$ 249,90</td>
+                    <td>R$ 29.988,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Real Madrid</td>
+                    <td>G</td>
+                    <td>97</td>
+                    <td>R$ 299,90</td>
+                    <td>R$ 29.090,00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Brasil</td>
+                    <td>M</td>
+                    <td>87</td>
+                    <td>R$ 349,90</td>
+                    <td>R$ 30.441,00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Argertina</td>
+                    <td>P</td>
+                    <td>75</td>
+                    <td>R$ 299,90</td>
+                    <td>R$ 22.492,00</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Wolver Hampton</td>
+                    <td>G</td>
+                    <td>89</td>
+                    <td>R$ 239,90</td>
+                    <td>R$ 21.351,00</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Inglaterra</td>
+                    <td>M</td>
+                    <td>113</td>
+                    <td>R$ 299,90</td>
+                    <td>R$ 33.888,00</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Juventus</td>
+                    <td>P</td>
+                    <td>98</td>
+                    <td>R$ 259,90</td>
+                    <td>R$ 25.470,00</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Arsenal</td>
+                    <td>G</td>
+                    <td>87</td>
+                    <td>R$ 299,90</td>
+                    <td>R$ 26.091,00</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Liverpool</td>
+                    <td>G</td>
+                    <td>62</td>
+                    <td>R$ 309,90</td>
+                    <td>R$ 19.213,00</td><br>
+                </tr>
+            </table>
+        </div>
+        <form class="botao">
+            <input type="button" value="Anterior">
+            <select name="Numero" id="Numero">
+                <Option value="op1">1</Option>
+                <Option value="op2">2</Option>
+                <Option value="op3">3</Option>
+            </select>
+            <input type="button" value="Próximo"><br>
+        </form>
+    </section>
+</main>
+</body>
+</html>
